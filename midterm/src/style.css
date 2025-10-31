@@ -1,0 +1,59 @@
+body {
+   font-family:'Courier New', Courier, monospace;
+   background:#0000ff;
+   color:#ffffff;
+}
+
+a {
+   color:#ffffff;
+   text-decoration:none;
+}
+
+.navbar {
+   padding:30px;
+   position:sticky;
+   background:#0000c3;
+}
+
+.about {
+   padding:19px;
+   max-width:auto;
+}
+
+.card {
+   border:1px solid #0000c3;
+   border-radius:21px;
+   padding: 30px;
+   background:#0000c3; 
+}
+
+.list {
+   margin: 30px;
+   display:grid;
+   gap:15px;
+}
+
+.subtext {
+   padding: 30px;
+   color:rgb(0, 179, 255);
+}
+
+button {
+   background:#0000ff;
+   color:#ffffff;
+   border: #0000ff 5px;
+   border-radius:21px; 
+   padding: 11px;
+}
+
+select, textarea {
+   background:#0000ff; 
+   color:#eee; 
+   border:5px #0000ff;
+   border-radius:6px; 
+   padding:11px;
+}
+
+.stars {
+   align-items:center;
+}
