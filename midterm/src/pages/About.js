@@ -4,7 +4,7 @@
 
 function About() {
   return (
-    <div className = "about" >
+    <div className = "about">
       <h1>The Memories</h1>
       <p>
         The ritual of drinking chai every evening with your family, with your friends while growing up is something that I have inherently carried with me to this day. An object of comfort offered during sickness, loneliness, moments of deep thought, a go-to drink anywhere, the cause of resentment towards coffee.

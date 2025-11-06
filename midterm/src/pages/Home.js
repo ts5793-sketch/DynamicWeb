@@ -6,8 +6,7 @@ import ChaiList from "../components/ChaiList";
 function Home({ 
   entries = [], onAdd, onDelete }) 
  {
-
-  // drawing elements to be used and defining default settings
+// drawing elements to be used and defining default settings
   const [style, setStyle] = useState("");
   const [rating, setRating] = useState(0);
   const [notes, setNotes] = useState("");

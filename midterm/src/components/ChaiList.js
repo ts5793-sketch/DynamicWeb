@@ -18,6 +18,7 @@ function ChaiList({
             {chaiCard.style}
           </div>
           <div>
+            {/* math to make sure the arrangement of the stars stays up to the length ===5, and as the suer rates the cup, subtracting that from 5 to replace it with empty arrays. sourced from somewhere (unable to find) */}
             {"*".repeat(chaiCard.rating)}{"-".repeat(5 - chaiCard.rating)}
           </div>
           <div className>

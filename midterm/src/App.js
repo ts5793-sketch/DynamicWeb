@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { useState, useEffect } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import NavBar from "./components/NavBar";
@@ -25,8 +25,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path = "/" element = {
-          <Home entries = {entries} onAdd = {addEntry} onDelete = {deleteEntry}/>
-        } />
+          <Home entries = {entries} onAdd = {addEntry} onDelete = {deleteEntry}/>}/>
         <Route path = "/about" element = {<About/>}/>
       </Routes>
     </BrowserRouter>
